@@ -1,11 +1,12 @@
     % To run the script not as a function, uncomment
     % lines 4-7 and comment lines 9 and 59
-
-%f = @(t,y) -y;
-%g = @(t,y) t;
-%x1Vals = -10:1:10;
-%x2Vals = -10:1:10;
-
+%{
+f = @(t,y) -y;
+g = @(t,y) t;
+x1Vals = -10:1:10;
+x2Vals = -10:1:10;
+%}
+    
 function vectorfield(f,g,x1Vals,x2Vals)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
